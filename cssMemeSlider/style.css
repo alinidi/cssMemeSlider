@@ -1,25 +1,23 @@
 body {
   margin: 0;
 }
-.background-of-slider {
+.wrapper {
   background-color: rgb(56, 56, 56);
+  display: flex;
 }
-.single-meme {
+.single-slide {
   display: flex;
   flex-direction: column;
-  margin: 30px auto 30px auto;
+  margin: 4vw auto;
 }
 .meme-img {
-  width: 1000px;
   max-width: 100%;
   border-radius: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 4vh;
   box-shadow: 5px 5px 5px rgb(31, 31, 31);
 }
-.wrapper {
-  display: flex;
-}
-.img-descriptions {
+
+.meme-text {
   color: aliceblue;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

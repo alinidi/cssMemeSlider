@@ -7,41 +7,64 @@
     <title>cssMemeSlider</title>
   </head>
   <body>
-    <div class="background-of-slider">
+    <div class="meme-slider-container">
+      <input type="radio" class="radio" id="meme1" />
+      <input type="radio" class="radio" id="meme2" />
+      <input type="radio" class="radio" id="meme3" />
+      <input type="radio" class="radio" id="meme4" />
+      <input type="radio" class="radio" id="meme5" />
+
       <div class="wrapper">
-        <div class="single-meme">
-          <img
-            src="/cssMemeSlider/assets/meme1.jpg"
-            alt="meme1"
-            class="meme-img"
-          />
-          <h2 class="img-descriptions">yaaaaas</h2>
+        <div class="all-slides">
+          <div class="single-slide">
+            <img
+              src="/cssMemeSlider/assets/meme1.jpg"
+              alt="meme1"
+              class="meme-img"
+            />
+            <p class="meme-text">Yaaaaaas</p>
+          </div>
+          <div class="single-slide">
+            <img
+              src="/cssMemeSlider/assets/meme2.jpg"
+              alt="meme2"
+              class="meme-img"
+            />
+            <p class="meme-text">GUURL</p>
+          </div>
+          <div class="single-slide">
+            <img
+              src="/cssMemeSlider/assets/meme3.png"
+              alt="meme3"
+              class="meme-img"
+            />
+            <p class="meme-text">YAAAAASSS</p>
+          </div>
+          <div class="single-slide">
+            <img
+              src="/cssMemeSlider/assets/meme4.jpg"
+              alt="meme4"
+              class="meme-img"
+            />
+            <p class="meme-text">AAAAAAAAA</p>
+          </div>
+          <div class="single-slide">
+            <img
+              src="/cssMemeSlider/assets/meme5.jpg"
+              alt="meme5"
+              class="meme-img"
+            />
+            <p class="meme-text">AAAAAAAAAAAAAAAAA</p>
+          </div>
         </div>
-        <!--<img
-          src="/cssMemeSlider/assets/meme2.jpg"
-          alt="meme2"
-          class="meme-img"
-        />
-        <h2 class="img-descriptions">meme2</h2>
-        <img
-          src="/cssMemeSlider/assets/meme3.png"
-          alt="meme3"
-          class="meme-img"
-        />
-        <h2 class="img-descriptions">meme3</h2>
-        <img
-          src="/cssMemeSlider/assets/meme4.jpg"
-          alt="meme4"
-          class="meme-img"
-        />
-        <h2 class="img-descriptions">meme4</h2>
-        <img
-          src="/cssMemeSlider/assets/meme5.jpg"
-          alt="meme5"
-          class="meme-img"
-        />
-        <h2 class="img-descriptions">meme5</h2>-->
-        <div class="slider"></div>
+
+        <div class="controls">
+          <label for="meme1" class="control-btn"></label>
+          <label for="meme2" class="control-btn"></label>
+          <label for="meme3" class="control-btn"></label>
+          <label for="meme4" class="control-btn"></label>
+          <label for="meme5" class="control-btn"></label>
+        </div>
       </div>
     </div>
   </body>
